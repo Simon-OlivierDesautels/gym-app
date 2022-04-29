@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
 
 type LayoutProps = {
@@ -10,7 +11,7 @@ export const Layout = ({ children }: LayoutProps) => {
     <>
       <Navbar />
       <main>{children}</main>
-      <p>Footer</p>
+      <Footer />
     </>
   );
 };
