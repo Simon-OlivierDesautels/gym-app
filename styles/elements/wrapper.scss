@@ -1,0 +1,36 @@
+// STYLE DE BASE DU WRAPPER
+
+.page-flow{
+    overflow: hidden;
+}
+
+.wrapper{
+  max-width: calc(100% - 200px);
+  margin: 0 auto;
+
+}
+
+// Utilisation du css Layout Grid pour faire le wrapper
+.grid-wrapper{
+  display: grid;
+  grid-template-columns: auto minmax($min-width, $max-width) auto;
+  grid-column-gap: 30px;
+}
+
+.grid-center{
+  grid-column: 2/3;
+}
+
+@media screen and (max-width: $vw-medium) {
+
+    .wrapper {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: $vw-thin) {
+
+    .wrapper {
+        max-width: calc(100% - 40px);
+    }
+}

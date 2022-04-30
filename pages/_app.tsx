@@ -1,10 +1,13 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
+import "../css/main.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Component {...pageProps} />
+      <div className="wrapper">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }

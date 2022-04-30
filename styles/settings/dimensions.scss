@@ -1,0 +1,13 @@
+//FICHIER DE CONFIGURATION POUR LES VARIABLES DE LARGEUR/HAUTEUR
+
+
+// Dimension maximal
+$max-width: 1620px;
+$min-width: 600px;
+
+// MEDIA QUERIES
+$vw-thin: 414px;
+$vw-small: 640px;
+$vw-medium: 1440px;
+$vw-large: 1024px;
+$vw-huge: $max-width;

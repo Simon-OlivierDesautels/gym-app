@@ -1,0 +1,22 @@
+{
+  "exercises": [
+    {
+      "id": 0,
+      "name": "Tapis",
+      "description": "Vestibulum erat nulla, ultrices ac maximus vel, auctor et ante. Mauris eu tempor metus. Ut laoreet nunc eu eros vestibulum, sed condimentum eros pulvinar. Curabitur varius magna non purus imperdiet, non vulputate felis malesuada. Sed a mi a dolor tristique congue quis quis neque. Vivamus ut nibh quis risus faucibus blandit. Fusce laoreet tortor et sollicitudin malesuada. Vivamus sagittis vestibulum tristique. Suspendisse fringilla diam at rhoncus viverra. Nunc aliquet augue at eros cursus, congue luctus ante cursus. Sed euismod neque semper aliquet aliquam. Proin id est vehicula, gravida sem placerat, luctus elit.",
+      "type": 0
+    },
+    {
+      "id": 1,
+      "name": "Stair master",
+      "description": "Sed fermentum nunc fermentum dolor finibus fermentum. Maecenas a metus sit amet leo eleifend hendrerit. Suspendisse hendrerit nisl felis, vitae tempus nisi hendrerit vel. Cras et malesuada elit. Cras ac ipsum posuere, suscipit neque sit amet, semper massa. Quisque facilisis pretium mattis. Morbi sit amet odio sit amet dolor tempus tempor non non orci. Nulla dictum, tellus eget imperdiet convallis, odio tortor finibus massa, eu posuere lacus ante eget elit. Aliquam rutrum lacinia mi, sed molestie nulla placerat in. Duis mattis lorem a consequat dictum. Vivamus sed arcu vel elit porta sagittis ut vitae ex. Pellentesque ac magna rutrum, egestas elit eu, egestas augue.        ",
+      "type": 0
+    },
+    {
+      "id": 2,
+      "name": "Bicep curl",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor tellus diam, non ultricies metus ornare quis. Integer vulputate tellus quam, et feugiat lectus luctus sed. Nulla ut auctor massa. Aliquam erat volutpat. Vivamus mollis, ante vitae vehicula ultricies, arcu augue rutrum dui, ac vulputate purus leo a mauris. Aenean rutrum augue ante, et mollis ex dapibus et. Sed finibus urna est, eget efficitur ipsum pharetra et. Suspendisse sagittis mauris ipsum, sed tempor felis mollis elementum. Ut nec blandit dui. Sed mattis vitae orci a cursus. Vivamus at auctor diam. Aliquam erat volutpat. Praesent neque augue, feugiat ut nisi sed, imperdiet blandit turpis. Duis sed tristique erat, ac lobortis sapien. Curabitur in venenatis diam.",
+      "type": 1
+    }
+  ]
+}
