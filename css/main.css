@@ -372,13 +372,13 @@ body {
 }
 
 .wrapper {
-  max-width: calc(100% - 200px);
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: auto minmax(600px, 1620px) auto;
+  grid-template-columns: auto minmax(600px, 1400px) auto;
   grid-column-gap: 30px;
 }
 
@@ -408,10 +408,17 @@ a {
   cursor: pointer;
 }
 
+.layout-dashboard {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  grid-gap: 20px;
+}
+
 .bloc {
   background-color: #FFF;
-  border-bottom: solid #ECEEF0 1px;
+  border: solid #ECEEF0 1px;
   box-shadow: 0px 4px 7px 0px rgba(64, 68, 83, 0.03);
+  border-radius: 3px;
 }
 
 nav {

@@ -1,6 +1,7 @@
 .bloc{
     background-color: $color-white;
-    border-bottom: solid $color-grey-light 1px;
+    border: solid $color-grey-light 1px;
     box-shadow: $shadow-light;
 
+    border-radius: 3px;
 }

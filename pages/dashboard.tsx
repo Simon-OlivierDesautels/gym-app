@@ -5,9 +5,14 @@ import { Bloc } from "../components/Bloc";
 const Dashboard: NextPage = () => {
   return (
     <Layout>
-      <Bloc>
-        <h1>Dashboard</h1>
-      </Bloc>
+      <>
+        <Bloc>
+          <h3>Dashboard</h3>
+        </Bloc>
+        <Bloc>
+          <h3>Dashboard</h3>
+        </Bloc>
+      </>
     </Layout>
   );
 };

@@ -1,14 +1,15 @@
 import type { NextPage } from "next";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
-import {ChildrenProp} from './children'
-
+import { ChildrenProp } from "./children";
 
 export const Layout = ({ children }: ChildrenProp) => {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <div className="wrapper">
+        <main className="layout-dashboard">{children}</main>
+      </div>
       <Footer />
     </>
   );
