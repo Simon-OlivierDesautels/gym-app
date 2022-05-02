@@ -3,9 +3,9 @@ import "../css/main.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <Component {...pageProps} />
-    </>
+    <div className="page-container">
+      <Component {...pageProps}  />
+    </div>
   );
 }
 

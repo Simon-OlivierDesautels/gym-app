@@ -4,32 +4,76 @@ import ico from "../assets/Ico.png";
 
 export const Navbar = () => {
   return (
-    <nav className="wrapper">
-      <ul>
+    <nav>
+      <ul className="wrapper">
         <Link href={"/"}>
           <li>
-            <div className="sbs">
-              <Image
-                alt="Home"
-                src={ico}
-                className={"small-ico"}
-                width={35}
-                height={35}
-              />
-              Landing page
-            </div>
-            <div className="nav__span--active"></div>
+            <a href="" className="nav__li__a">
+              <div>
+                <Image
+                  alt="Home"
+                  src={ico}
+                  className={"small-ico"}
+                  width={35}
+                  height={35}
+                />
+                <p>Landing page</p>
+              </div>
+              <div className="nav__li__a__progress" />
+            </a>
           </li>
         </Link>
-        <li>
-          <Link href={"dashboard"}>Dashboard</Link>
-        </li>
-        <li>
-          <Link href={"exercises"}>Exercises</Link>
-        </li>
-        <li>
-          <Link href={"profile"}>Profile</Link>
-        </li>
+        <Link href={"dashboard"}>
+          <li>
+            <a href="" className="nav__li__a">
+              <div>
+                <Image
+                  alt="Home"
+                  src={ico}
+                  className={"small-ico"}
+                  width={35}
+                  height={35}
+                />
+                <p>Dashboard</p>
+              </div>
+              <div className="nav__li__a__progress" />
+            </a>
+          </li>
+        </Link>
+        <Link href={"exercises"}>
+          <li>
+            <a href="" className="nav__li__a">
+              <div>
+                <Image
+                  alt="Home"
+                  src={ico}
+                  className={"small-ico"}
+                  width={35}
+                  height={35}
+                />
+                <p>Exercises</p>
+              </div>
+              <div className="nav__li__a__progress" />
+            </a>
+          </li>
+        </Link>
+        <Link href={"profile"}>
+          <li>
+            <a href="" className="nav__li__a">
+              <div>
+                <Image
+                  alt="Home"
+                  src={ico}
+                  className={"small-ico"}
+                  width={35}
+                  height={35}
+                />
+                <p>Profile</p>
+              </div>
+              <div className="nav__li__a__progress" />
+            </a>
+          </li>
+        </Link>
       </ul>
     </nav>
   );

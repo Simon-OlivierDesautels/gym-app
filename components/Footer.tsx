@@ -8,7 +8,7 @@ export const Footer = () => {
       <ul>
         <li>
           <SocialLink
-            image={"#"}
+            image={"Ico.png"}
             social={"#"}
             text={"simonolivier.desautels@gmail.com"}
           />
@@ -18,6 +18,13 @@ export const Footer = () => {
             image={"#"}
             social={"#"}
             text={"Simon-OlivierDesautels"}
+          />
+        </li>
+        <li>
+          <SocialLink
+            image={"#"}
+            social={"#"}
+            text={"Simon-Olivier Desautels"}
           />
         </li>
       </ul>

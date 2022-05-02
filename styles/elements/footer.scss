@@ -1,0 +1,14 @@
+footer {
+  min-height: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 50px;
+
+  background-color: $color-white;
+  border-top: solid $color-grey-light 1px;
+
+  position: absolute;
+  bottom: 0;
+}

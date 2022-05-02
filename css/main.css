@@ -408,36 +408,75 @@ a {
   cursor: pointer;
 }
 
+.bloc {
+  background-color: #FFF;
+  border-bottom: solid #ECEEF0 1px;
+  box-shadow: 0px 4px 7px 0px rgba(64, 68, 83, 0.03);
+}
+
 nav {
   background-color: #FFF;
-  border-bottom: solid #ECEEF0;
+  border-bottom: solid #ECEEF0 1px;
   box-shadow: 0px 4px 7px 0px rgba(64, 68, 83, 0.03);
 }
 nav ul {
-  max-width: calc(100% - 300px);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
 }
 nav ul li {
+  width: 229px;
   min-height: 100px;
+  position: relative;
 }
-nav ul li div.sbs {
-  padding: 20px;
+nav ul li a {
+  height: 100%;
+}
+nav ul li div:first-of-type {
+  height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
-nav ul li div.nav__span--active {
-  min-height: 5px;
+nav ul li div:first-of-type p {
+  padding: 10px;
+}
+
+footer {
+  min-height: 260px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #FFF;
+  border-top: solid #ECEEF0 1px;
+  position: absolute;
+  bottom: 0;
+}
+
+.nav__li__a:hover div.nav__li__a__progress {
+  width: 100%;
+  transition: 0.3s;
+}
+
+div.nav__li__a__progress {
+  width: 0%;
+  min-height: 5px;
   border-radius: 5px;
   background-color: #FC7D47;
-  position: relative;
-  top: 20%;
+  position: absolute;
+  bottom: 0px;
   transition: 0.5s;
 }
-nav ul li div.nav__span {
-  width: 0%;
-  transition: 0.5s;
+
+div.nav__li__a__progress.active {
+  width: 100%;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+}
+.footer__social-link p {
+  padding: 0 0 0 10px;
 }
 
 /* ==========================================================================

@@ -1,12 +1,10 @@
 import type { NextPage } from "next";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
+import {ChildrenProp} from './children'
 
-type LayoutProps = {
-  children: JSX.Element;
-};
 
-export const Layout = ({ children }: LayoutProps) => {
+export const Layout = ({ children }: ChildrenProp) => {
   return (
     <>
       <Navbar />

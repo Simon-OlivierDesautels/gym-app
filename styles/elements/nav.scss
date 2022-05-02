@@ -1,36 +1,29 @@
 nav {
     background-color: $color-white;
-    border-bottom: solid $color-grey-light;
+    border-bottom: solid $color-grey-light 1px;
     box-shadow: $shadow-light;
-
+    
     ul {
-        max-width: calc(100% - 300px);
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
 
         li {
+            width: 229px;
             min-height: 100px;
+            position:relative;
             
-            div.sbs{
-                padding: 20px;
+            a{
+                height: 100%;
+            }
+            div:first-of-type{
+                height: 100%;
+
                 display: flex;
-                justify-content: space-around;
-            }
+                justify-content: center;
+                align-items: center;
+                    p{
 
-            div.nav__span--active {
-                min-height: 5px;
-                width: 100%;
-                border-radius: 5px;
-                background-color: $color-orange;
-                position: relative;
-                top:20%;
-
-                transition: 0.5s;
-            }
-
-            div.nav__span {
-                width: 0%;
-                transition: 0.5s;
+                        padding: 10px;
+                    }
             }
         }
     }
